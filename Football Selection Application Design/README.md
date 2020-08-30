@@ -15,10 +15,10 @@ DefenderExperienceFactor
 ______
 
 ### Sample Input:    
-*Sorted based on name and space separated.*     
-First line: number of rows
-Second line: number of columns
-Next Lines: Name(string) Height(decimal) BMI(decimal) Scores(int) Defends(int)
+*Sorted based on name and space separated.*        
+First line: number of rows    
+Second line: number of columns    
+Next Lines: Name(string) Height(decimal) BMI(decimal) Scores(int) Defends(int)    
 
 4   
 5    
@@ -29,8 +29,8 @@ Suarez 5.9 20 100 1.
 
 ____
 ### Sample Output:    
-*Sorted based on name.* 
-Boateng SELECT DEFENDER       
+*Sorted based on name.*     
+Boateng SELECT DEFENDER           
 Kaka REJECT NA     
 Ronaldo SELECT STRIKER       
 Saurez REJECT NA
