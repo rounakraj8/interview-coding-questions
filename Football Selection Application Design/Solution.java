@@ -65,7 +65,8 @@ class Solution {
     }
 
     public static boolean isEligibleForSelection(List<String> application) {
-        return Double.parseDouble(application.get(1)) >= 5.8 && Double.parseDouble(application.get(2)) <= 23.0 && (Double.parseDouble(application.get(3)) >= 50.0 || Double.parseDouble(application.get(4)) >= 30);
+        return Double.parseDouble(application.get(1)) >= 5.8 && Double.parseDouble(application.get(2)) <= 23.0 
+          && (Double.parseDouble(application.get(3)) >= 50.0 || Double.parseDouble(application.get(4)) >= 30);
     }
 
 }
