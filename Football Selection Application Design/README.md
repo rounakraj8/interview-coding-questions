@@ -6,12 +6,10 @@ FitnessFactor
 -minHeight = 5.8 -maxBmi = 23
 ______
 
-______
 StrikerExperienceFactor
 -minGoalsScored = 50
 ______
 
-______
 DefenderExperienceFactor
 -minGoalsDefended = 30
 ______
@@ -30,12 +28,12 @@ Ronaldo 5.8 21 120 0
 Suarez 5.9 20 100 1.  
 
 ____
-Sample Output:
+Sample Output:    
 Sorted based on name.   
-Boateng SELECT DEFENDER      
-Kaka REJECT NA
-Ronaldo SELECT STRIKER   
+Boateng SELECT DEFENDER       
+Kaka REJECT NA     
+Ronaldo SELECT STRIKER       
 Saurez REJECT NA
 
-
+____
 As you can see, selection comprises equal number (one) of both strikers (Ronaldo) and defenders (Boateng) while the rest (Kaka, Suarez) have been rejected despite one of them (Suarez) matching the selection criteria.
