@@ -22,8 +22,8 @@ First line: number of rows
 Second line: number of columns
 Next Lines: Name(string) Height(decimal) BMI(decimal) Scores(int) Defends(int)
 
-4
-5
+4   
+5    
 Boateng 6.1 22 24 45   
 Kaka 6 22 1 1    
 Ronaldo 5.8 21 120 0   
